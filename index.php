@@ -2,7 +2,7 @@
 
 require "vendor/autoload.php";
 
-echo("<h1>How to use Environmental Variables (phpdotenv for php)</h1>");
+echo("<h1>How to use Environmental Variables (phpdotenv for php1)</h1>");
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
