@@ -9,7 +9,7 @@ $dotenv->load();
 
 /*$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);*/
 /*wors only with: createUnsafeImmutable(__DIR__);*/
-/*echo("<li>getenv():".$test); */
+echo("<li>getenv():".getenv());
 
 echo("<li> ENV key: ".$_ENV['SECRET_KEY']);
 echo("<li> ENV pass: ".$_ENV['PASSWORD']);
