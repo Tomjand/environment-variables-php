@@ -1,2 +1,5 @@
-# ENV
+### dotenv ###
+.env
+.docker-compose.yaml
+.Dockerfile
 
