@@ -1,5 +1,9 @@
 <?php
-//require_once ("config.php");
+$host = $_SERVER['HTTP_HOST'];
+
+if ($host == 'localhost:8003') {
+    require_once ("config.php");
+}
  //require_once (__DIR__."/vendor/autoload.php");
 //require_once ("vendor/autoload.php");
 
