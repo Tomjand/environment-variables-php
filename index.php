@@ -1,5 +1,5 @@
 <?php
-
+require_once ("config.php");
  //require_once (__DIR__."/vendor/autoload.php");
 //require_once ("vendor/autoload.php");
 
@@ -14,8 +14,8 @@ echo("<h1>How to use Environmental Variables (phpdotenv for php2)</h1>");
 //$secret_key = getenv("SECRET_KEY");
 //echo ("<li> new: ". $secret_key);
 
-echo("<li> ENV key: ".$_ENV['SECRET_KEY']);
-echo("<li> ENV pass: ".$_ENV['PASSWORD']);
-echo("<li> SERVER: ".$_SERVER['HTTP_HOST']);
-echo("<li> SERVERabc: ".$_SERVER['abc']);
+// echo("<li> ENV key: ".$_ENV['SECRET_KEY']);
+// echo("<li> ENV pass: ".$_ENV['PASSWORD']);
+// echo("<li> SERVER: ".$_SERVER['HTTP_HOST']);
+echo("<li> SERVER passsword: ".$_SERVER['pass']);
 ?>
