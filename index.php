@@ -1,9 +1,9 @@
 <?php
-$host = $_SERVER['HTTP_HOST'];
+$hostname = $_SERVER['HTTP_HOST'];
 
-if ($host == 'localhost:8003') {
-    require_once ("config.php");
-}
+ if ($hostname == 'localhost:8003') {
+     require_once ("config.php");
+ }
 
 // require_once (__DIR__."/vendor/autoload.php");
 //require_once ("vendor/autoload.php");
@@ -22,6 +22,6 @@ echo("<h1>How to use Environmental Variables (phpdotenv for php2)</h1>");
 //echo("<li> ENV key: ".$_ENV['SECRET_KEY']);
 //echo("<li> ENV pass: ".$_ENV['PASSWORD']);
 
-echo("<li> hostname : ".$_SERVER['HTTP_HOST']);
-//echo("<li> SERVER passsword: ".$_SERVER['pass']);
+echo("<li> hostname : ".$hostname);
+echo("<li> SERVER passsword: ".$_SERVER['pass']);
 ?>
